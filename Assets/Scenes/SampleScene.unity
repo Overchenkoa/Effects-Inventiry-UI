@@ -263,7 +263,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -855298285791758126, guid: 5a238d11fcb32d3f48b5e31f951e575c, type: 3}
+  m_Sprite: {fileID: -6470460504253458178, guid: 22d5ebe47a2e36e0f95d8e17217817ec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 589663079efe45fe8b6699f4ecd3bb81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EffectCollector
-  effect: {fileID: 92498840513049203, guid: 449524c16a0606b38be61c830c4c946c, type: 3}
+  effect: {fileID: 92498840513049203, guid: 3baad0db68eb993639e66fcd30db7e77, type: 3}
 --- !u!212 &377052777
 SpriteRenderer:
   serializedVersion: 3
@@ -389,7 +389,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 6937817954938267909, guid: 84ea8e51973e68776b271647a4a247e1, type: 3}
+  m_Sprite: {fileID: -6470460504253458178, guid: 22d5ebe47a2e36e0f95d8e17217817ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -551,7 +551,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 2.35, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -571,6 +571,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EffectStorage
   effectUI: {fileID: 8653915070236657440, guid: 6606d28a15612f0a7b2f22f0b9fb1d5a, type: 3}
+  borderOffset: {x: 70, y: -70}
+  gap: 5
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,7 +1064,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.32, y: -0.43}
+  m_AnchoredPosition: {x: 2.39, y: -0.43}
   m_SizeDelta: {x: 5.12, y: 5.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1035474053

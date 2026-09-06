@@ -7,10 +7,4 @@ public class Effect : MonoBehaviour
     public Sprite Image;
     public float duration;
     [HideInInspector] public float timeLeft;
-    public int power;
-
-    public Effect()
-    {
-        timeLeft = duration;
-    }
 }
